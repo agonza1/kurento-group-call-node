@@ -19,9 +19,8 @@ let rooms = {};
 
 const argv = minimst(process.argv.slice(2), {
     default: {
-        //as_uri: 'http://localhost:3000',
         as_uri: 'https://localhost:3000',
-        ws_uri: 'ws://54.223.104.239:8888/kurento'
+        ws_uri: 'ws://127.0.0.1:8888/kurento'
     }
 });
 
@@ -59,6 +58,11 @@ io.on('connection', socket => {
 
     socket.on('disconnect', data => {
         console.log(`Connection : %s disconnect`, data);
+        leaveRoom(socket, (error) => {
+            if (error) {
+                console.error(error);
+            }
+        });
     });
 
     socket.on('message', message => {
