@@ -1,30 +1,61 @@
 {
   "name": "kurento-utils",
   "description": "Kurento Utilities",
-  "license": "ALv2",
+  "license": "Apache-2.0",
   "keywords": [
-    "API",
-    "Kurento",
-    "WebRTC"
+    "kurento",
+    "mcu",
+    "sfu",
+    "rpc",
+    "mediaserver",
+    "pipe",
+    "audio",
+    "video",
+    "media",
+    "recording",
+    "stream",
+    "streaming",
+    "videoconference",
+    "broadcast",
+    "multicast",
+    "client",
+    "server",
+    "browser",
+    "chrome",
+    "edge",
+    "firefox",
+    "safari",
+    "webrtc",
+    "datachannel",
+    "sdp",
+    "ice",
+    "stun",
+    "turn",
+    "h264",
+    "h.264",
+    "opus",
+    "vp8",
+    "rtp",
+    "srtp",
+    "rtsp"
   ],
-  "homepage": "http://www.kurento.org",
+  "homepage": "https://www.kurento.org",
   "repository": {
     "type": "git",
-    "url": "Kurento/kurento-utils-js"
+    "url": "https://github.com/Kurento/kurento-utils-js.git"
   },
   "authors": [
-    "Kurento <info@kurento.org> (http://kurento.org)",
-    "Ivan Gracia <izanmail@gmail.com>",
-    "Jesus Leganes 'piranna' <piranna@gmail.com>"
+    "Kurento <openvidu@gmail.com> (https://www.kurento.org)",
+    "Kurento Community <kurento@googlegroups.com> (https://www.kurento.org)"
   ],
-  "version": "6.6.0",
-  "_release": "6.6.0",
+  "version": "6.9.0",
+  "_release": "6.9.0",
   "_resolution": {
     "type": "version",
-    "tag": "6.6.0",
-    "commit": "97d1aa3f2f6075d915a7a8aa73724e10ff87be9e"
+    "tag": "6.9.0",
+    "commit": "8c4dbbe4266ebb0ff38deb3da5cde2172f44cfc2"
   },
   "_source": "https://github.com/Kurento/kurento-utils-bower.git",
-  "_target": "6.6.0",
+  "_target": "^6.8",
   "_originalSource": "kurento-utils"
 }
